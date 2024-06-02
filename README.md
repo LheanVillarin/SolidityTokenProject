@@ -12,12 +12,3 @@ To ensure proper functionality and prevent unauthorized token burning, the burn 
 
 Overall, this Solidity contract provides a robust framework for token management, offering essential functionalities such as minting new tokens, burning existing tokens, and maintaining accurate balance information for each address. 
 
-Now, let's proceed with a demonstration of how these functions work in practice:
-
-
-In this demo, we deploy the MyToken contract and interact with its functions:
-- We mint 100 tokens to the sender's address using the mintDemo function.
-- Then, we burn 50 tokens from the same address using the burnDemo function.
-- Finally, we can view the updated total supply and the balance of the sender's address using the viewTotalSupply and viewBalance functions, respectively.
-
-This practical demonstration showcases the functionality of the MyToken contract in action, highlighting its capabilities in token management on the Ethereum blockchain.
